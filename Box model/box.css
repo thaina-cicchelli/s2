@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+    display: flex;
+    /* flex-direction:row-reverse; */
+}
+
+li{
+    display: flex;
+}
+a {
+    background-color: blueviolet;
+    border: solid black 1px;
+    padding: 12px;
+    margin: 13px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
