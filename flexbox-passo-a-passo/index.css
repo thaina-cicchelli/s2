@@ -1,0 +1,12 @@
+.boxmain {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.boxitem {
+    width: 270px;
+    height: 230px;
+    background-color: #E1E1E1;
+    border-radius: 8px;
+    /* margin: 12px; */
+}
