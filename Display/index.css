@@ -1,0 +1,99 @@
+@import url('https://fonts.googleleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif ;
+}
+
+img {
+    max-width: 100%;
+}
+
+.menu {
+    background-color: #4572E8;
+    padding: 20px 0;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.form-search {
+    margin-top: 50px;
+}
+.form-search form {
+    display: flex;
+    gap: 16px;
+}
+.form-search form input {
+     width: 85%;
+     height: 50px;
+    background-color: #E7E7E7;
+    padding-left: 16px;
+    border: 1px solid #E7E7E7;
+}
+.form-search form button {
+    width: 20%;
+    height: 50px;
+    background-color: #4572E8;
+    color: #ffffff;
+    border: 1px solid #4572E8;
+}
+.post {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.title-1 {
+    font-size: 42px;
+}
+.paragraph {
+    font-size: 18px;
+    line-height: 34px;
+    color: #333333;
+}
+.last-posts {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    padding: 32px 0;
+    
+}
+.last-post-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 33%;
+}
+.last-post-card img {
+    width: 100%
+}
+.last-post-card main{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+} 
+.last-post-card main p {
+    font-size: 14px;
+    line-height: 24px ;
+}
+.last-post-card main a {
+    font-size: 14px;
+    color: #4572E8;
+    font-weight: 600;
+    text-decoration: none;
+}
