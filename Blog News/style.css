@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Inter&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Inter&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 40px -15px rgba(0, 0, 0, 0.25);
+}
+h1 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.posts {
+    margin: 41px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    max-width: 600px;
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
+}
+.title {
+    font-size: 16px;
+    /* border: 1px solid yellow; */
+}
+.title:hover {
+    text-decoration:underline;
+}
+.paragraph {
+    color: #343A40;
+    font-size: 12px;
+}
+.card {
+    margin-bottom: 55px;
+    /* border: 2px solid green; */
+    width: 287px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.card img {
+    width: 100%;
+}
+
+.subject {
+    display: flex;
+    gap: 4px;
+}
+.subject span {
+    background-color: #F6F6F6;
+    padding: 2px 10px;
+    color: #343A40;
+    font-size: 12px;
+}
+footer {
+    background-color: #0D0D0E;
+    color: white;
+    display: flex;
+}
