@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Inter&family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Inter&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -17,10 +18,22 @@ header {
     justify-content: center;
     box-shadow: 0px 4px 40px -15px rgba(0, 0, 0, 0.25);
 }
+
 h1 {
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
 }
+main {
+    width: 60%;
+}
+aside {
+    width: 30%;
+}
+
+.main-aside {
+    display: flex;
+}
+
 .posts {
     margin: 41px;
     display: flex;
@@ -29,18 +42,23 @@ h1 {
     max-width: 600px;
     /* border: 2px solid red; */
     flex-wrap: wrap;
+    width: 100%;
 }
+
 .title {
     font-size: 16px;
     /* border: 1px solid yellow; */
 }
+
 .title:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
+
 .paragraph {
     color: #343A40;
     font-size: 12px;
 }
+
 .card {
     margin-bottom: 55px;
     /* border: 2px solid green; */
@@ -49,6 +67,7 @@ h1 {
     flex-direction: column;
     gap: 16px;
 }
+
 .card img {
     width: 100%;
 }
@@ -57,12 +76,36 @@ h1 {
     display: flex;
     gap: 4px;
 }
+
 .subject span {
     background-color: #F6F6F6;
     padding: 2px 10px;
     color: #343A40;
     font-size: 12px;
+    flex-direction: row;
 }
+.posts-aside {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px  red solid ; */
+    gap: 21px;
+    margin: 35px;
+    width: 100%;
+}
+.posts-aside h2 {
+    font-size: 18px;
+    font-weight: 600px;
+}
+.posts-aside h3 {
+    font-size: 14px;
+    font-weight: 700px;
+}
+.posts-aside div {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
 footer {
     background-color: #0D0D0E;
     color: white;
